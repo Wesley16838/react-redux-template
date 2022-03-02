@@ -1,0 +1,13 @@
+.primary-nav {
+    display: flex;
+    justify-content: flex-end;
+    --font-weight: 600;
+    --font-width: 80;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 2em rgba(black, .1);
+    a {
+        margin-left: 1rem;
+        text-decoration: none;
+    }
+}
