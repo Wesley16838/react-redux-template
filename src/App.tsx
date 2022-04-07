@@ -1,6 +1,6 @@
-import { Suspense } from "react";
+import { Fragment, Suspense } from "react";
 import "./App.css";
-import { useRoutes } from "react-router-dom";
+import { Route, Routes, useRoutes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 import routes from "./routes";
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         {route}
         {/* <Routes> */}
-          {/* {routes.map(({ path, component: Component = Fragment }) => (
+          {/* {routes.map(({ path, element: Component = Fragment }) => (
             <Route key={path} path={path} element={Component}/>
           ))} */}
           {/* <Route path="/" element={<Homepage/>}/> */}
